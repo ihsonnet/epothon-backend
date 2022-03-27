@@ -1,4 +1,4 @@
-package com.epothon.epothonbackend;
+package com.app.epothon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
