@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.app</groupId>
-	<artifactId>abs-world-xpress</artifactId>
+	<artifactId>epothon-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>epothon-backend</name>
 	<description>epothon - Your Online Book Player</description>
