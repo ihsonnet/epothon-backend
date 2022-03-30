@@ -27,4 +27,18 @@ public class UtilService {
         return new BasicTableInfo(id, slug, SKU, createBy, creationTime);
 
     }
+
+    public BasicTableInfo generateBasicTableInfoWithoutToken(String name){
+
+        String id = UUID.randomUUID().toString();
+        String slug = name.toLowerCase().replace(" ", "-")
+                + "-" + id.substring(0, 4);
+        String createBy = null;
+        Long creationTime = System.currentTimeMillis();
+
+        String SKU = UUID.randomUUID().toString().replace("-", "").toUpperCase().substring(0, 10);
+
+        return new BasicTableInfo(id, slug, SKU, createBy, creationTime);
+
+    }
 }
